@@ -1,0 +1,9 @@
+{
+  "name": "TED link in new tab",
+  "description": "Opens TED youtube video link with start set to 13 second to avoid the jarring intro music.",
+  "version": "0.4",
+  "permissions": ["contextMenus"],
+  "background": {"scripts": ["ted.js"]},
+  "manifest_version": 2,
+  "icons": {"128": "ted128.png"}
+}
